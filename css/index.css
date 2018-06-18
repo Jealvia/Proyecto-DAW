@@ -1,5 +1,12 @@
+
 .tittle{
-    padding-top: 30%;
+    padding-top: 25%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.logo{
+  display: block;
+  max-width: none !important;
 }
 
 .active{
@@ -10,17 +17,12 @@
 .footer {
     background: #061D25;
     padding: 10px 0;
+    font-family: 'Exo 2', sans-serif;
   }
   .footer a {
-    color: #70726F;
+    color: white;
     font-size: 20px;
-    padding: 10px;
-    border-right: 1px solid #70726F;
+    padding: 5px;
     transition: all .5s ease;
   }
-  .footer a:first-child {
-    border-left: 1px solid #70726F;
-  }
-  .footer a:hover {
-    color:white;
-  }
+  
