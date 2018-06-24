@@ -1,31 +1,54 @@
 html, body {
   height: 100%;
   margin: 0;
+  background: #e7d6d630;
+}
+
+.background-bar{
+  background: rgb(1, 27, 66);
 }
 
 section {
   min-height: 100%;
   padding-top: 2%;
+  padding-bottom: 2%;
   /* igual al largo del footer */
 }
 
+.button-submit{
+  width: 100%;
+}
 aside{
   padding-top: 2%;
 }
 
+.container{
+  background: #fff;
+}
+
 .tittle {
-  padding-top: 25%;
+  padding-top: 0%;
   font-family: 'Exo 2', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .logo {
-  display: block;
-  max-width: none !important;
+  display: inline-block;
+  max-width:100%;
+  width:auto;
+  height: auto;
 }
 
 .active {
   font-weight: bold;
   color: white;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
 }
 
 footer {
@@ -242,5 +265,29 @@ footer a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .tittle {
+    padding-top: 0%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 575px) {
+  .tittle {
+    padding-top: 0%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .tittle {
+    padding-top: 0%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+}

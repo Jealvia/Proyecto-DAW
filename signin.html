@@ -18,20 +18,20 @@
     <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-2 logo" style="max-width: 140px">
-                    <img style="margin:0 0 -20.3% 30%;" src="img/logo.png" alt="" class="rounded img-fluid">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2" style="max-width: 130px">
+                    <img class="logo" src="img/logo.png" alt="" class="rounded img-fluid">
                 </div>
-                <div class="col-sm-1">
+                <div class="col-sm-3">
                     <h1 class="tittle">
                         Seguridad Informática
                     </h1>
                 </div>
-                <div class="col-sm-6"></div>
+                <div class="col-sm-2"></div>
             </div>
         </div>
 
-        <nav class="navbar navbar-collapse bg-primary d-flex justify-content-around">
+        <nav class="navbar navbar-collapse background-bar d-flex justify-content-around">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link text-white" href="index.html">Inicio</a>
@@ -68,36 +68,43 @@
 
     <section class="container">
         <h2>Registrarse</h2>
-        <form action="/action_page.php">
-            <div class="form-group">
-                <label>Nombre:</label>
-                <input class="form-control col-lg-5" placeholder="Nombre">
+        <div class="row">
+            <div class="col-sm-6">
+                <form action="index.html">
+                    <div class="form-group">
+                        <label>Nombre:</label>
+                        <input class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Apellidos:</label>
+                        <input class="form-control" placeholder="Apellidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required placeholder="Ingrese email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Contraseña:</label>
+                        <input type="password" class="form-control" id="pwd" required placeholder="Ingrese contraseña" name="pswd">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Confirme contraseña:</label>
+                        <input type="password" class="form-control" id="pwd" required placeholder="Repita contraseña" name="pswd">
+                    </div>
+                    <button type="submit" class="btn btn-primary button-submit">Registrarme</button>
+                </form>
             </div>
-            <div class="form-group">
-                <label>Apellidos:</label>
-                <input class="form-control col-lg-5" placeholder="Apellidos">
+            <div class="col-sm-6">
+                <img src="img/singin.png" class="img-responsive img-fluid" alt="">
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control col-lg-5" id="email" placeholder="Enter email" name="email">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control col-lg-5" id="pwd" placeholder="Ingrese contraseña" name="pswd">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Confirme contraseña:</label>
-                <input type="password" class="form-control col-lg-5" id="pwd" placeholder="Repita contraseña" name="pswd">
-            </div>
-            <button type="submit" class="btn btn-primary">Sign up</button>
-        </form>
+        </div>
     </section>
 
-    <footer class="footer">
-        <div class="container text-center">
+    <footer>
+        <div class="text-center">
             <label class="text-white" for="text">Seguridad Informática</label>
         </div>
-        <div class="container text-center">
+        <div class="text-center">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-instagram"></a>
