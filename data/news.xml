@@ -1,0 +1,27 @@
+<news>
+    <new>
+        <tittle>Default Passwords Aid Satori IoT Botnet Attacks</tittle>
+        <body>Researchers at Netlab 360 detected a surge in malicious activity scanning and infecting several IoT devices, attempting to make them part of Satori, a variant of the Mirai botnet that is used to take down websites and mine digital coins. Experts point to lack of oversight in IoT and the cursed default usernames and passwords as the reason why hackers are leveraging this critical vulnerability in D-Link DSL routers.</body>
+        <imagen>https://assets.infosecurity-magazine.com/webpage/thumb/6dc44895-7c7c-4ff0-a82e-c0f9c51bdf88.jpg</imagen>
+    </new>
+    <new>
+        <tittle>Security Pros Expect Rise in Nation-State Attacks</tittle>
+        <body>Nation-state attacks are a mounting concern for security professionals, who reportedly expect to see a rise in cyber-attacks amid the backdrop of increasing geopolitical tensions. According to a Tripwire survey conducted at Infosecurity Europe 2018, the vast majority of respondents anticipate more nation-state attacks over the next 12 months. Tripwire surveyed 416 conference attendees to gauge their expectations for the future, and almost all of them (93%) believe more trouble is on the way, with 83% saying they believe nation-states will expand their targets beyond government entities. The same amount of respondents believe that critical-infrastructure attacks from nation-states will rise and that attackers will intentionally cause direct harm.</body>
+        <imagen>https://assets.infosecurity-magazine.com/webpage/thumb/40eadadb-3729-4da4-871b-08feba995522.jpg</imagen>
+    </new>
+    <new>
+        <tittle>Afghan-Based Attack Disguised as News</tittle>
+        <body>Researchers have detected a new Afghanistan-based attack disguised as a recent article from a Middle Eastern news network about the next Shanghai Cooperation Organisation Summit. Attackers used a malicious document that contained an excerpt from a story and titled it “Afghanistan – ‘Shanghai Spirits’ Contributes to Afghan Peace.” In order to read the full story, readers were asked to click “enable content” because the document was protected. Duping the victims into clicking on the malicious document was the first stage in a multi-staged attack involving various servers and artifacts. The attack aims to install a Metasploit backdoor using “an interesting .NET downloader which uses a custom encryption method to obfuscate process memory and evade antivirus detection,” according to research reported by AlienVault.</body>
+        <imagen>https://assets.infosecurity-magazine.com/webpage/thumb/c44093b2-506c-48e6-9f90-7f38b3bd5bf3.jpg</imagen>
+    </new>
+    <new>
+        <tittle>ACLU Warns on Forced Malicious Software Updates</tittle>
+        <body>Installation of malicious software in legitimate products could compromise security, and damage trust in software updates altogether. According to a report by the ACLU on “How Malicious Software Updates Endanger Everyone”, it warned that “government agents may see malicious software updates as a means for surveillance” and the US government may force users to install malware to bypass passcode lockouts, enable wiretapping, turn on cameras, or physically track someone.</body>
+        <imagen>https://assets.infosecurity-magazine.com/webpage/thumb/4d73d6f2-61ab-44c1-b7f5-b7748828722a.jpg</imagen>
+    </new>
+    <new>
+        <tittle>Attackers Pick Microsoft Office for Zero-Day Exploits</tittle>
+        <body>Being top choice as an attack vector is likely not a contest any platform wants to win. Unfortunately for Microsoft, Office will not only continue to be the attackers’ vector of choice but will also be the platform for exploiting vulnerabilities, according to a new report from Menlo Security. After 360 Total Security blogged about “the first APT (Advanced Persistent Threat) campaign that forms its attack with an Office document embedding a newly discovered Internet Explorer 0-day exploit,” Menlo Security researchers sought to understand why attackers were using malicious Office documents for endpoint exploitation.</body>
+        <imagen>https://assets.infosecurity-magazine.com/webpage/thumb/50d02a2e-4aa4-4bb1-b76f-a2dc34420d8c.jpg</imagen>
+    </new>
+</news>
