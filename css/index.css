@@ -265,32 +265,41 @@ footer a {
   }
 }
 
-@media screen and (max-width: 767px) {
+
+
+
+@media screen and (max-width: 655px) {
   .tittle {
     padding-top: 0%;
     font-family: 'Exo 2', sans-serif;
-    font-size: 2em;
+    font-size: 2.3em;
+    width: 100%;
     text-align: center;
+    display: inline-block;
   }
-}
-
-@media screen and (max-width: 575px) {
-  .tittle {
-    padding-top: 0%;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 3em;
-    text-align: center;
+  #logo{
+    width: 100px;
+    height: 130px;
+    display: inline-block;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .tittle {
-    padding-top: 0%;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 2em;
-    text-align: center;
+  .col-sm-6{
+    max-width: 50%; 
   }
+  
 }
 
 
-
+@media screen and (max-width: 990px) {
+  aside{
+    display: inline-block;
+  }
+  .col-sm-4{
+    max-width:100%;  
+    flex: none;
+  }
+  .col-sm-8{
+    max-width:100%;
+    flex: none;
+  }
+  
+}
