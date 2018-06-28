@@ -20,19 +20,10 @@
             $("<div class='col-sm-7' id=''></div>").appendTo("#"+row).attr('id',col1);
             $("<p class='text-justify'></p>").html(sText).appendTo("#"+col1);
             $("<div class='col-sm-5' id=''></div>").appendTo("#"+row).attr('id',col2);
-            $("<img class='img-responsive img-fluid imgtitulares' src=''></img></div>").appendTo("#"+col2).attr('src' , sUrl);
+            $("<img class='img-responsive img-fluid imgtitulares' src=''></img>").appendTo("#"+col2).attr('src' , sUrl);
             row=row+3;
             col1=col1+3;
             col2=col2+3;
         });
     }
 })();
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
