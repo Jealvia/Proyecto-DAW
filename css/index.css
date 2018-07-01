@@ -292,3 +292,17 @@ footer a {
   }
 }
 
+@media screen and (max-width: 990px) {
+  aside{
+    display: inline-block;
+  }
+  .col-sm-4{
+    max-width:100%;  
+    flex: none;
+  }
+  .col-sm-8{
+    max-width:100%;
+    flex: none;
+  }
+  
+}
